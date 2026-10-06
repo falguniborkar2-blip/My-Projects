@@ -17,7 +17,7 @@ RUN pip install --no-cache-dir --prefix=/install uwsgi -r requirements.txt
 # --- STAGE 2: RUNTIME ---
 FROM python:3.12-alpine
 RUN apk add --no-cache pcre
-ENV UCO="580903" \
+ENV UCO="" \
     NAME="Falguni Borkar" \
     LIBCRYPTO_PATH="/opt/openssl/lib/libcrypto.so.3" \
     CORS_ALLOWED_ORIGIN="http://localhost:8844" \
