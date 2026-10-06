@@ -1,1 +1,9 @@
 ﻿*.sh
+
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.pem
+*.key
+*.pub
+.env
