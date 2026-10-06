@@ -7,3 +7,11 @@
 *.key
 *.pub
 .env
+
+# Python and ML
+__pycache__/
+.ipynb_checkpoints/
+venv/
+*.sqlite3
+*.csv
+*.dat
