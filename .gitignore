@@ -18,3 +18,10 @@ venv/
 
 clouds.yaml
 .terraform/
+
+# Secrets, caches, VM files
+*.vbox
+*.vbox-prev
+Logs/
+*.sql.gz
+data/
