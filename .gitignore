@@ -15,3 +15,6 @@ venv/
 *.sqlite3
 *.csv
 *.dat
+
+clouds.yaml
+.terraform/
